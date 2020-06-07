@@ -1,0 +1,7 @@
+
+O que você deseja criar	  Comando usado
+Componente (Component)	  ng g component nome-do-componente
+Diretiva (Directive)	    ng g directive nome-da-diretiva
+Filtro (Pipe)	            ng g pipe nome-do-filtro
+Serviço (Service)	        ng g service nome-do-servico
+Módulo (Module)	          ng g module nome-do-modulo
