@@ -30,4 +30,9 @@ export class ProductService {
 
   }
 
+  read(): Observable<Product[]> { //Retorna a lista de Produto
+    return this.http.get<Product[]>(this.baseUrl);
+
+  }
+
 }
