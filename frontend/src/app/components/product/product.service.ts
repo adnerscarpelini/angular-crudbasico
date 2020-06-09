@@ -35,4 +35,15 @@ export class ProductService {
 
   }
 
+  readById(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`; //ADNER: Interpola o id do produto recebido na base da url
+    return this.http.get<Product>(url);
+  }
+
+  update(product: Product): Observable<Product> {
+    const url = `${this.baseUrl}/${product.id}`; //ADNER: Interpola o id do produto recebido na base da url
+    return this.http.put<Product>(url, product);
+
+  }
+
 }
