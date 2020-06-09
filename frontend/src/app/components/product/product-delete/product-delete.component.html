@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title>Excluir Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <!--ADNER: A diretiva ngModel faz a ligação com a classe-->
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price" disabled>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="deleteProduct()" color="accent">
+    Excluir
+  </button>
+
+    <button mat-raised-button (click)="cancel()">
+    Cancelar
+  </button>
+</mat-card>

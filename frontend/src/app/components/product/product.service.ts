@@ -46,4 +46,11 @@ export class ProductService {
 
   }
 
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`; //ADNER: Interpola o id do produto recebido na base da url
+    return this.http.delete<Product>(url);
+
+  }
+
+
 }
