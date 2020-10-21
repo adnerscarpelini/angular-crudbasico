@@ -2,7 +2,7 @@
 
 A simple CRUD using Angular 9 with REST API
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
 
 ![Dashboard](https://raw.githubusercontent.com/adnerscarpelini/angular-crudbasico/master/ImagensFinal/Screenshot_1.png "Dashboard")
 
