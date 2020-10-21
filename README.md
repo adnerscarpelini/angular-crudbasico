@@ -14,7 +14,7 @@ A simple CRUD using Angular 9 with REST API
 
 ![NotificationPopUp](https://raw.githubusercontent.com/adnerscarpelini/angular-crudbasico/master/ImagensFinal/Screenshot_6.png "NotificationPopUp")
 
-###🚀 Technologies
+### 🚀 Technologies
 
 This project was developed with the following technologies:
 - Angular 9
@@ -22,7 +22,7 @@ This project was developed with the following technologies:
 - JSON Server
 - Node.js
 
-###ℹ️ How To Use
+### ℹ️ How To Use
 To clone and run this application, you'll need Git, Node.js and Angular CLI installed on your computer. From your command line:
 
 ```bash
