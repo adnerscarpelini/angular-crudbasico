@@ -27,7 +27,7 @@ To clone and run this application, you'll need Git, Node.js and Angular CLI inst
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/adnerscarpelini/angular9-crud.git
+$ git clone https://github.com/adnerscarpelini/angular-simplecrud.git
 
 # Go into the repository
 $ cd backend
